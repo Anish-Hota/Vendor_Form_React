@@ -24,6 +24,9 @@ export default [
         },
       },
     },
+    globals: {
+        ...globals.browser,  // ADD THIS LINE
+      },
     plugins: {
       '@typescript-eslint': tsPlugin,
       react: reactPlugin,
